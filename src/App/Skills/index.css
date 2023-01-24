@@ -1,0 +1,27 @@
+.skills-container {
+  background-image: linear-gradient(to right, #3a98b9, #25bbbe);
+  color: #eeeeee;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: max(10rem);
+  padding-right: max(10rem);
+}
+
+.skill {
+  font-size: 1.2rem;
+}
+
+.skill-category {
+  max-width: 10rem;
+}
+
+#skills-section h1 {
+  text-align: center;
+}

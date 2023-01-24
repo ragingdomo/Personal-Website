@@ -1,0 +1,42 @@
+.projects-container {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #213547;
+}
+
+.website {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#website-img {
+  width: 5rem;
+  height: 5rem;
+  background-color: #e8d5c4;
+  padding: 3rem;
+}
+
+.proj-link {
+  color: #213547;
+  transition: 100ms;
+}
+
+.proj-link:hover {
+  color: #3a98b9;
+  transition: 100ms;
+}
+
+.construction {
+  height: 30rem;
+  width: 40rem;
+  overflow: hidden;
+  margin: 0;
+}
