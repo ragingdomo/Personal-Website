@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { send } from "emailjs-com";
 import "./index.css";
 
-function App() {
+function Contact() {
   const [toSend, setToSend] = useState({
     from_name: "",
     to_name: "",
@@ -14,14 +14,18 @@ function App() {
     event.preventDefault();
     send("service_ibz9yeq", "template_73a55v2", toSend, "ICaToGUPXzgTqzH3K")
       .then((response: { status: any; text: any }) => {
-        console.log("SUCCESS!", response.status, response.text);
+        alert("Thanks for getting in contact! I'll get back to you as soon as I can");
       })
       .catch((err: any) => {
-        console.log("FAILED...", err);
+        alert("FAILED..."+ err);
       });
+      setToSend({ from_name: "",
+      to_name: "",
+      message: "",
+      reply_to: "",});
   }
 
-  function handleChange(event: { target: { name: any; value: any } }) {
+  function handleChange(event: { target: { name: string; value: string } }) {
     setToSend({ ...toSend, [event.target.name]: event.target.value });
   }
 
@@ -61,4 +65,4 @@ function App() {
   );
 }
 
-export default App;
+export default Contact;
