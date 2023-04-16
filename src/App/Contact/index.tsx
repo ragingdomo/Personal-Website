@@ -47,6 +47,7 @@ function App() {
         />
         <textarea
           className="input-field"
+          rows="9"
           name="message"
           placeholder="Message"
           value={toSend.message}
