@@ -9,19 +9,33 @@
 .skills {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-left: max(10rem);
-  padding-right: max(10rem);
+  justify-content: space-around;
+  padding-left: clamp(1rem, 5rem, 10rem);
+  padding-right: clamp(1rem, 5rem, 10rem);
+}
+
+@media screen and (max-width: 720px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+  }
 }
 
 .skill {
   font-size: 1.2rem;
+  justify-content: center;
 }
 
 .skill-category {
-  max-width: 10rem;
+  max-width: 13rem;
 }
 
 #skills-section h1 {
   text-align: center;
+}
+
+#skills {
+  transition: all 0.3s ease-in-out;
 }

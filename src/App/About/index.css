@@ -1,13 +1,12 @@
+#about {
+  transition: all 1s ease-in-out;
+}
+
 .about-container {
   background-image: linear-gradient(to right, #25bbbe, #3a98b9);
   padding-top: 5rem;
   padding-bottom: 7rem;
   color: #eeeeee;
-}
-
-.about-text {
   display: flex;
-  text-align: center;
-  max-width: 60%;
-  margin: 0 auto 0;
+  justify-items: space-around;
 }
