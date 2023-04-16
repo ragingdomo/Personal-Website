@@ -1,0 +1,12 @@
+#about {
+  transition: all 1s ease-in-out;
+}
+
+.about-container {
+  background-image: linear-gradient(to right, #25bbbe, #3a98b9);
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  color: #eeeeee;
+  display: flex;
+  justify-items: space-evenly;
+}

@@ -1,0 +1,27 @@
+.intro-container {
+  position: absolute;
+  top: 33vh;
+  font-size: x-large;
+}
+
+.nav-buttons {
+  border: solid #3a98b9;
+  margin: 0.6rem;
+  padding: 0.3rem;
+  border-radius: 0.8rem;
+  background-color: #3a98b9;
+  color: #eeeeee;
+  transition: 200ms;
+  position: relative;
+  right: 0.8rem;
+}
+
+.nav-buttons:hover {
+  background-color: #eeeeee;
+  color: #3a98b9;
+  transition: 200ms;
+}
+
+#name {
+  margin-bottom: 1rem;
+}

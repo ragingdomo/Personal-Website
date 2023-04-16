@@ -1,0 +1,41 @@
+.skills-container {
+  background-image: linear-gradient(to right, #3a98b9, #25bbbe);
+  color: #eeeeee;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: clamp(1rem, 5rem, 10rem);
+  padding-right: clamp(1rem, 5rem, 10rem);
+}
+
+@media screen and (max-width: 720px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+  }
+}
+
+.skill {
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.skill-category {
+  max-width: 13rem;
+}
+
+#skills-section h1 {
+  text-align: center;
+}
+
+#skills {
+  transition: all 0.3s ease-in-out;
+}

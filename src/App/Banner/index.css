@@ -1,0 +1,17 @@
+img {
+  height: 3rem;
+  color: #e74646;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  right: 0;
+}
+
+nav a {
+  flex-direction: column;
+  margin: 1.6rem;
+}
