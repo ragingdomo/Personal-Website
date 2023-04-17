@@ -19,6 +19,12 @@
   font-size: inherit;
 }
 
+@media screen and (max-width: 720px){
+  .input-field{
+    width:max(80%);
+  }
+}
+
 #submit-button {
   font-size: x-large;
   border: solid #3a98b9;

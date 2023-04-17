@@ -2,6 +2,7 @@
   position: absolute;
   top: 33vh;
   font-size: x-large;
+  margin-left: min(1rem);
 }
 
 .nav-buttons {
@@ -24,4 +25,9 @@
 
 #name {
   margin-bottom: 1rem;
+}
+
+.nav-buttons-container{
+  display:flex;
+  flex-wrap: wrap;
 }
